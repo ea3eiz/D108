@@ -6,7 +6,7 @@
                         sleep 1
                         mv D108 B108
                         sleep 1
-                        sudo chmod 777 -R D108
-                        cd /home/pi/D108
+                        sudo chmod 777 -R B108
+                        cd /home/pi/B108
                         ./qt_imagen_actualizada
 

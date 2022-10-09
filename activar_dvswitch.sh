@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./qt_dvswitch_activado &
+
 sed -i "18c DVSWITCH=ON" /home/pi/status.ini
 
 sudo systemctl restart ysfgateway.service
@@ -12,7 +14,7 @@ sudo systemctl restart nxdngateway.service
 sleep 1
 sudo systemctl restart p25gateway.service
 cd /home/pi/B108
-./qt_dvswitch_activado &
+
 
 # Directorio donde están todos los servicios
 #/usr/lib/systemd/system

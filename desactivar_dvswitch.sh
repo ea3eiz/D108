@@ -1,8 +1,6 @@
 ﻿#!/bin/bash
 
-#sed -i "20c MARCA_DVSWITCH=OFF" /home/pi/status.ini
-
-sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
+sed -i "18c DVSWITCH=ON" /home/pi/status.ini
 
 sudo systemctl stop ysfgateway.service
 sudo systemctl stop dmr2ysf.service

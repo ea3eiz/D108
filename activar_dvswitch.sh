@@ -2,13 +2,6 @@
 
 sed -i "18c DVSWITCH=ON" /home/pi/status.ini
 
-# Pone Enable=1 en [Dstar Network]
-#sed -i "62c Enable=1" /opt/MMDVM_Bridge/MMDVM_Bridge.ini
-#sed -i "62c Enable=1" /opt/MMDVM_Bridge/MMDVM_Bridge_FCS.ini
-#sed -i "62c Enable=1" /opt/MMDVM_Bridge/brandmeister_esp.ini
-#sed -i "62c Enable=1" /opt/MMDVM_Bridge/dmrplus.ini
-#sed -i "62c Enable=1" /opt/MMDVM_Bridge/especial.ini
-
 sudo systemctl restart ysfgateway.service
 sudo systemctl restart dmr2ysf.service
 sudo systemctl restart analog_bridge.service
@@ -20,6 +13,7 @@ sleep 10
 sudo systemctl restart p25gateway.service
 cd /home/pi/B108
 ./qt_dvswitch_activado &
+
 # Directorio donde están todos los servicios
 #/usr/lib/systemd/system
 

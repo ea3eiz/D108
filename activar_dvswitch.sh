@@ -19,7 +19,7 @@ sudo systemctl restart nxdngateway.service
 sleep 10
 sudo systemctl restart p25gateway.service
 cd /home/pi/B108
-./qt_dvswitch_activado
+./qt_dvswitch_activado &
 # Directorio donde están todos los servicios
 #/usr/lib/systemd/system
 

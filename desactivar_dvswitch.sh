@@ -14,7 +14,7 @@ sudo systemctl stop nxdngateway.service
 sleep 10
 sudo systemctl stop p25gateway.service
 cd /home/pi/B108
-./qt_dvswitch_desactivado
+./qt_dvswitch_desactivado &
 
 # Directorio donde están todos los servicios
 #/usr/lib/systemd/system

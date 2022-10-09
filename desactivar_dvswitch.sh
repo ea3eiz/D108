@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-sed -i "18c DVSWITCH=ON" /home/pi/status.ini
+sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
 
 sudo systemctl stop ysfgateway.service
 sudo systemctl stop dmr2ysf.service
@@ -9,7 +9,7 @@ sudo systemctl stop ircddbgatewayd.service
 sudo systemctl stop md380-emu.service
 sudo systemctl stop mmdvm_bridge.service
 sudo systemctl stop nxdngateway.service
-sleep 10
+sleep 1
 sudo systemctl stop p25gateway.service
 cd /home/pi/B108
 ./qt_dvswitch_desactivado &

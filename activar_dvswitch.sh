@@ -9,7 +9,7 @@ sudo systemctl restart ircddbgatewayd.service
 sudo systemctl restart md380-emu.service
 sudo systemctl restart mmdvm_bridge.service
 sudo systemctl restart nxdngateway.service
-sleep 10
+sleep 1
 sudo systemctl restart p25gateway.service
 cd /home/pi/B108
 ./qt_dvswitch_activado &

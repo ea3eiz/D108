@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo -s | ps aux | grep dv4mini.exe | grep -v grep | awk '{print $2}' | xargs kill
-sudo killall dv_serial
-
-
+sudo killall -9 mono
+sudo killall -9 dv_serial
+cd /home/pi/B108
+mono PANEL_IMAGEN_ADER_D108
 

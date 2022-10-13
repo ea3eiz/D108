@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo killall -9 mono
-sudo killall -9 dv_serial
+sudo su | ps aux | grep dv4mini.exe | grep -v grep | awk '{print $2}' | xargs kill
+sudo killall dv_serial
+
 

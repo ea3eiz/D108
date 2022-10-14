@@ -9,7 +9,6 @@
                         sudo chmod 777 -R B108
                         cd /home/pi/B108
                         ./qt_imagen_actualizada
-                        sudo killall mono
-                        sudo mono PANEL_IMAGEN_ADER_D108.exe &
+
 
 

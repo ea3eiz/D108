@@ -10,6 +10,6 @@
                         cd /home/pi/B108
                         ./qt_imagen_actualizada
                         sudo killall mono
-                        mono PANEL_IMAGEN_ADER_D108.exe
+                        mono PANEL_IMAGEN_ADER_D108.exe &
 
 

@@ -4,7 +4,6 @@ echo "\33[38;5;138m"
 echo " **************************************************************************"
 echo "                          ABRIENDO SOLO FUSION                             "
 echo " **************************************************************************"
-sleep 2
 cd /home/pi/YSFClients/YSFGateway
 sudo xterm -geometry 73x6+290+761 -bg brown -fg white -fa 'Verdana' -fs 8x -T YSFGateway -e ./YSFGateway YSFGateway.ini & 
 cd /home/pi/MMDVMHost

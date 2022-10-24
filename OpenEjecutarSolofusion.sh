@@ -6,8 +6,8 @@ echo "                          ABRIENDO SOLO FUSION                            
 echo " **************************************************************************"
 sleep 2
 cd /home/pi/YSFClients/YSFGateway
-sudo xterm -geometry 73x10+290+761 -bg brown -fg white -fa 'Verdana' -fs 9x -T YSFGateway -e ./YSFGateway YSFGateway.ini & 
+sudo xterm -geometry 73x8+290+761 -bg brown -fg white -fa 'Verdana' -fs 8x -T YSFGateway -e ./YSFGateway YSFGateway.ini & 
 cd /home/pi/MMDVMHost
-sudo xterm -geometry 75x10+290+1100 -bg brown -fg white -fa 'Verdana' -fs 9x -T MMDVMFUSION -e ./MMDVMFUSION MMDVMFUSION.ini &
+sudo xterm -geometry 73x10+290+1100 -bg brown -fg white -fa 'Verdana' -fs 8x -T MMDVMFUSION -e ./MMDVMFUSION MMDVMFUSION.ini &
 
 

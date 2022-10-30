@@ -25,7 +25,7 @@ sudo ircddbgateway -gui &
 #xterm -geometry 77x9+1276+56 -bg Green -fg black -fa 'verdana' -fs 9x -T DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini &
 
 
-sudo xterm -geometry 87x12+1200+56 -bg Green -fg black -fa 'Verdana' -fs 9x -T DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini &
+sudo xterm -geometry 77x11+1150+362 -bg Green -fg black -fa 'Verdana' -fs 9x -T DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini &
 
 
 

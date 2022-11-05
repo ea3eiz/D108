@@ -135,7 +135,7 @@ url=$(awk "NR==16" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 url=`expr substr $url 5 30`
 
 frecuencia=$(awk "NR==8" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
-frecuencia=`expr substr $frecuencia 12 9`
+frecuencia=`expr substr $frecuencia 13 9`
 
 password_especial=$(awk "NR==74" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini)
 

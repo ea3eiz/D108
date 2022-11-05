@@ -153,7 +153,7 @@ reflector_dstar=$(awk "NR==18" /etc/ircddbgateway)
 
 # Copia todos los datos de Dvswitch /home/pi/.local/COPIA_SEGURIDAD/Downloads
 sed -i "1c $indicativo" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
-sed -i "2c $address_especial" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
+sed -i "2c $frecuencia" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "3c $id" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "4c $id2" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "5c $Latitude" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch

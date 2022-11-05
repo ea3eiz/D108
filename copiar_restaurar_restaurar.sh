@@ -351,7 +351,7 @@ sudo sed -i "16c URL=$url" /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini
 sudo sed -i "16c URL=$url" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini
 sudo sed -i "16c URL=$url" /opt/MMDVM_Bridge/MMDVM_Bridge_FCS.ini
 
-frecuencia=$(awk "NR==8" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
+frecuencia=$(awk "NR==2" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
 sudo sed -i "8c RXFrequency=$frecuencia" /opt/MMDVM_Bridge/MMDVM_Bridge.ini
 sudo sed -i "8c RXFrequency=$frecuencia" /opt/MMDVM_Bridge/MMDVM_Bridge_BM.ini
 sudo sed -i "8c RXFrequency=$frecuencia" /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini

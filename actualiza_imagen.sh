@@ -9,7 +9,6 @@
                         sudo chmod 777 -R B108
                         cd /home/pi/B108
                         ./qt_imagen_actualizada
-                        sleep 3
                         #sudo reboot
 
 

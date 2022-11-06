@@ -141,6 +141,9 @@ location=$(awk "NR==14" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 url=$(awk "NR==16" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 url=`expr substr $url 5 30`
 
+frecuencia=$(awk "NR==8" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
+frecuencia=`expr substr $frecuencia 13 9`
+
 password_especial=$(awk "NR==74" /opt/MMDVM_Bridge/especial.ini)
 
 port_especial=$(awk "NR==71" /opt/MMDVM_Bridge/especial.ini)
@@ -155,8 +158,9 @@ selfcare=$(awk "NR==74" /opt/MMDVM_Bridge/brandmeister_esp.ini)
 
 reflector_dstar=$(awk "NR==18" /etc/ircddbgateway)
 
+# Copia todos los datos de Dvswitch /home/pi/.local/COPIA_SEGURIDAD/Downloads
 sed -i "1c $indicativo" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
-sed -i "2c $address_especial" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
+sed -i "2c $frecuencia" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "3c $id" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "4c $id2" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "5c $Latitude" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch

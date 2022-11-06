@@ -1,4 +1,20 @@
 #!/bin/bash
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+ #           
+            sudo chmod -R 777 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            
             cd /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f TODOS_LOS_INIS.ini /home/pi/MMDVMHost
 
@@ -47,7 +63,7 @@
             cp -f memoria_radio /home/pi/.local #22-02-2021
             cp -f memoria_especial /home/pi/.local #22-02-2021
             cp -f memoria_solodstar /home/pi/.local #22-02-2021
-            cp -f memoria_solofusion /home/pi/.local #22-02-2021
+            cp -f memoria_solofusion /home/pi/.local #22-02-2021 
 
 
 

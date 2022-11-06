@@ -1,52 +1,46 @@
 #!/bin/bash
+            clear
             sudo rm /home/pi/.local/COPIA_SEGURIDAD/Downloads/*.*
-
+            
             cp /home/pi/.local/datos_dvswitch /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cp /home/pi/.local/bluetooth.sh /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cd /home/pi/MMDVMHost
-            sudo cp -f TODOS_LOS_INIS.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVM.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVM.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVM.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVM.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVM.ini_original /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f TODOS_LOS_INIS.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVM.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVM.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVM.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVM.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVM.ini_original /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            sudo cp -f MMDVMBM.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMBM.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMBM.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMBM.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMBM.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMBM.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMBM.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMBM.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            sudo cp -f MMDVMPLUS.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMPLUS.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMPLUS.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMPLUS.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMPLUS.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMPLUS.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMPLUS.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMPLUS.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            sudo cp -f MMDVMESPECIAL.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMESPECIAL.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMESPECIAL.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMESPECIAL.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMESPECIAL.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMESPECIAL.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMESPECIAL.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMESPECIAL.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            sudo cp -f MMDVMDMR2NXDN.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMDMR2YSF.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            sudo cp -f MMDVMNXDN.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMDMR2NXDN.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMDMR2YSF.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp -f MMDVMNXDN.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cp -f /home/pi/DMR2NXDN/DMR2NXDN.ini  /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f /home/pi/NXDNClients/NXDNGateway/NXDNGateway.ini  /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f /home/pi/DMR2YSF/DMR2YSF.ini  /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            #solo Dstar y solo Fusion
+            #solo Dstar y solo Fusion 
             cp -f MMDVMDSTAR.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f MMDVMDSTAR.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f MMDVMDSTAR.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f MMDVMDSTAR.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            
             cp -f MMDVMFUSION.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f MMDVMFUSION.ini_copia /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f MMDVMFUSION.ini_copia2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f MMDVMFUSION.ini_copia3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            #fin  Dstar y solo Fusion 
+            #fin  Dstar y solo Fusion  
 
             cd  /home/pi/YSF2DMR
             cp -f YSF2DMR.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
@@ -57,7 +51,7 @@
 
             cd  /home/pi/DMR2YSF
             cp -f TG-YSFList.txt /home/pi/.local/COPIA_SEGURIDAD/Downloads
-
+            
             cd /home/pi/.local
             cp -f tg_ysf.txt /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f nombre_salas_ysf.txt /home/pi/.local/COPIA_SEGURIDAD/Downloads
@@ -69,13 +63,11 @@
             cp -f memoria_especial /home/pi/.local/COPIA_SEGURIDAD/Downloads #22-02-2021
             cp -f memoria_solodstar /home/pi/.local/COPIA_SEGURIDAD/Downloads #22-02-2021
             cp -f memoria_solofusion /home/pi/.local/COPIA_SEGURIDAD/Downloads #22-02-2021
-
+          
             cd  /home/pi/YSFClients/YSFGateway/
             cp -f YSFGateway.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f YSFGateway.ini_1 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f YSFGateway.ini_1 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f YSFGateway.ini_1 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            
+        
             cd /home/pi/bluedv/
             cp -f BlueDVconfig.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
@@ -100,7 +92,8 @@
             cp -f /home/pi/DMRGateway/DMRGateway.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cp -f /home/pi/MMDVMHost/MMDVMDMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f /home/pi/DMR2M17/DMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads  
+            cp -f /home/pi/DMR2M17/DMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+
 
 cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
@@ -112,12 +105,12 @@ cp -f /home/pi/.local/regla6 /home/pi/.local/COPIA_SEGURIDAD/Downloads
 cp -f /home/pi/.local/regla7 /home/pi/.local/COPIA_SEGURIDAD/Downloads
 cp -f /home/pi/.local/regla8 /home/pi/.local/COPIA_SEGURIDAD/Downloads
 cp -f /home/pi/.local/regla9 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/reglaxlx /home/pi/.local/COPIA_SEGURIDAD/Downloads                     
+cp -f /home/pi/.local/reglaxlx /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
 indicativo=$(awk "NR==2" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 indicativo=`expr substr $indicativo 10 6`
 
-address_especial=$(awk "NR==70" /opt/MMDVM_Bridge/especial.ini)
+address_especial=$(awk "NR==70" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini)
 
 id=$(awk "NR==38" /opt/Analog_Bridge/Analog_Bridge.ini)
 id=`echo "$id" | tr -d '[[:space:]]'`
@@ -144,9 +137,9 @@ url=`expr substr $url 5 30`
 frecuencia=$(awk "NR==8" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 frecuencia=`expr substr $frecuencia 13 9`
 
-password_especial=$(awk "NR==74" /opt/MMDVM_Bridge/especial.ini)
+password_especial=$(awk "NR==74" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini)
 
-port_especial=$(awk "NR==71" /opt/MMDVM_Bridge/especial.ini)
+port_especial=$(awk "NR==71" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini)
 
 sala_fcs=$(awk "NR==40" /opt/Analog_Bridge/FCS.ini)
 sala_fcs=`echo "$sala_fcs" | tr -d '[[:space:]]'`
@@ -183,6 +176,8 @@ sudo cp -f /opt/HBmonitor/monitor.py /home/pi/.local/COPIA_SEGURIDAD/Downloads
 sudo cp -f /opt/HBmonitor/index_template.html /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
 sudo cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+
+sudo chmod 777 -R /home/pi/.local/COPIA_SEGURIDAD
 
 cd /home/pi/.local/COPIA_SEGURIDAD
 tar -zcvf Copia_B108.zip Downloads

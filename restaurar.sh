@@ -15,7 +15,7 @@ echo "*      DEL MMDVMHOST QUE TIENES ACTUALIZADO       *"
 echo "***************************************************"
             sudo chmod -R 777 /home/pi/.local/COPIA_SEGURIDAD/Downloads
             
-            cd /home/pi/.local/COPIA_SEGURIDAD/Downloads            
+            cd /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f TODOS_LOS_INIS.ini /home/pi/MMDVMHost
 
             cp -f bluetooth.sh /home/pi/.local
@@ -41,17 +41,10 @@ echo "***************************************************"
             cp -f MMDVMESPECIAL.ini_copia2 /home/pi/MMDVMHost
             cp -f MMDVMESPECIAL.ini_copia3 /home/pi/MMDVMHost
 
-            #solo Dstar
+            #solo Dstar y solo Fusion
             cp -f MMDVMDSTAR.ini /home/pi/MMDVMHost
-            cp -f MMDVMDSTAR.ini_copia /home/pi/MMDVMHost
-            cp -f MMDVMDSTAR.ini_copia2 /home/pi/MMDVMHost
-            cp -f MMDVMDSTAR.ini_copia3 /home/pi/MMDVMHost
-
-            #solo Fusion
             cp -f MMDVMFUSION.ini /home/pi/MMDVMHost
-            cp -f MMDVMFUSION.ini_copia /home/pi/MMDVMHost
-            cp -f MMDVMFUSION.ini_copia2 /home/pi/MMDVMHost
-            cp -f MMDVMFUSION.ini_copia3 /home/pi/MMDVMHost
+            #fin  Dstar y solo Fusion
 
             cp -f YSF2DMR.ini /home/pi/YSF2DMR
             cp -f YSF2DMR.ini_copia_01 /home/pi/YSF2DMR
@@ -60,7 +53,7 @@ echo "***************************************************"
             cp -f YSF2DMR.ini_copia_04 /home/pi/YSF2DMR
             
             cp -f TG-YSFList.txt /home/pi/DMR2YSF
-
+          
             cp -f tg_ysf.txt /home/pi/.local
             cp -f nombre_salas_ysf.txt /home/pi/.local
             cp -f autoarranque.ini /home/pi/.local
@@ -70,7 +63,7 @@ echo "***************************************************"
             cp -f memoria_radio /home/pi/.local #22-02-2021
             cp -f memoria_especial /home/pi/.local #22-02-2021
             cp -f memoria_solodstar /home/pi/.local #22-02-2021
-            cp -f memoria_solofusion /home/pi/.local #22-02-2021
+            cp -f memoria_solofusion /home/pi/.local #22-02-2021 
 
 
 
@@ -79,7 +72,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/IRCDDB.desktop
                             else
-                       		cd /home/pi/AUTOARRANQUEB108
+                       		cd /home/pi/AUTOARRANQUEA108
                   		    sudo cp IRCDDB.desktop /home/pi/.config/autostart
                             fi
 
@@ -88,7 +81,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/BLUEDV.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp BLUEDV.desktop /home/pi/.config/autostart
                             fi
 
@@ -97,7 +90,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/YSF.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp YSF.desktop /home/pi/.config/autostart
                             fi
 
@@ -106,7 +99,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DV4MINI.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DV4MINI.desktop /home/pi/.config/autostart
                             fi
 
@@ -115,7 +108,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/RADIO.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp RADIO.desktop /home/pi/.config/autostart
                             fi
 
@@ -124,7 +117,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DMRPLUS.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DMRPLUS.desktop /home/pi/.config/autostart
                             fi
 
@@ -133,7 +126,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/LIBRE.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp LIBRE.desktop /home/pi/.config/autostart
                             fi
 
@@ -142,7 +135,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/BM.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp BM.desktop /home/pi/.config/autostart
                             fi
 
@@ -151,7 +144,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/SVXLINK.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp SVXLINK.desktop /home/pi/.config/autostart
                             fi
 
@@ -160,7 +153,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DSTARSOLO_05.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DSTARSOLO_05.desktop /home/pi/.config/autostart
                             fi
 
@@ -169,7 +162,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/FUSIONSOLO.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp FUSIONSOLO.desktop /home/pi/.config/autostart
                             fi
 
@@ -178,7 +171,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DVRPTR.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DVRPTR.desktop /home/pi/.config/autostart
                             fi
 
@@ -187,7 +180,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/AMBE_SERVER.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp AMBE_SERVER.desktop /home/pi/.config/autostart
                             fi
 
@@ -196,7 +189,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/YSF2DMR.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp YSF2DMR.desktop /home/pi/.config/autostart
                             fi
 
@@ -205,7 +198,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DMR2YSF.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DMR2YSF.desktop /home/pi/.config/autostart
                             fi
 
@@ -214,7 +207,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DMR2NXDN.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DMR2NXDN.desktop /home/pi/.config/autostart
                             fi
 
@@ -223,7 +216,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/NXDN.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp NXDN.desktop /home/pi/.config/autostart
                             fi
 
@@ -232,7 +225,7 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/DMRGateway.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             sudo cp DMRGateway.desktop /home/pi/.config/autostart
                             fi
 
@@ -241,11 +234,11 @@ echo "***************************************************"
                             then
                             sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
                             else
-                            cd /home/pi/AUTOARRANQUEB108
+                            cd /home/pi/AUTOARRANQUEA108
                             cp /home/pi/Desktop/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
-                            fi                            
-
-cd /home/pi/.local/COPIA_SEGURIDAD/Downloads 
+                            fi      
+                                
+            cd /home/pi/.local/COPIA_SEGURIDAD/Downloads           
 
             cp -f MMDVMDMR2NXDN.ini /home/pi/MMDVMHost
             cp -f MMDVMNXDN.ini /home/pi/MMDVMHost
@@ -257,8 +250,6 @@ cd /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cp -f YSFGateway.ini /home/pi/YSFClients/YSFGateway/
             cp -f YSFGateway.ini_1 /home/pi/YSFClients/YSFGateway/
-            cp -f YSFGateway.ini_2 /home/pi/YSFClients/YSFGateway/
-            cp -f YSFGateway.ini_3 /home/pi/YSFClients/YSFGateway/
 
             cp -f BlueDVconfig.ini /home/pi/bluedv/
 
@@ -270,9 +261,6 @@ cd /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cp ircddbgateway /usr/local/etc/opendv/
             cp dstarrepeater /usr/local/etc/opendv/
-
-            #cp ircddbgateway /etc/
-            #cp dstarrepeater /etc/
 
             cp info_panel_control.ini /home/pi/
 
@@ -292,7 +280,7 @@ cp -f regla6 /home/pi/.local/
 cp -f regla7 /home/pi/.local/
 cp -f regla8 /home/pi/.local/
 cp -f regla9 /home/pi/.local/
-cp -f reglaxlx /home/pi/.local/            
+cp -f reglaxlx /home/pi/.local/
 
 # Restaura todos los datos de Dvswitch
 indicativo=$(awk "NR==1" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)          
@@ -394,6 +382,7 @@ sudo sed -i "74c $password_especial" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini
 
 port_especial=$(awk "NR==11" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
 sudo sed -i "71c $port_especial" /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini
+
 sala_fcs=$(awk "NR==12" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
 sudo sed -i "40c txTg = $sala_fcs" /opt/Analog_Bridge/FCS.ini
 #Modificación 04-05-2020
@@ -404,7 +393,7 @@ sala_nxdn=$(awk "NR==13" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitc
 sudo sed -i "10c $sala_nxdn" /opt/NXDNClients/NXDNGateway/private/NXDNHosts.txt
 
 selfcare=$(awk "NR==14" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
-sudo sed -i "74c $selfcare" /opt/MMDVM_Bridge/brandmeister_esp.ini
+sudo sed -i "74c $selfcare" /opt/MMDVM_Bridge/MMDVM_Bridge_BM.ini
 
 reflector_dstar=$(awk "NR==15" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
 sudo sed -i "18c $reflector_dstar" /etc/ircddbgateway
@@ -417,10 +406,3 @@ sudo cp -f monitor.py /opt/HBmonitor/
 sudo cp -f index_template.html /opt/HBmonitor/
 
 sudo cp -f info.ini /home/pi/
-
-
-
-
-
-
-
